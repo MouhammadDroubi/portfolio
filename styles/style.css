@@ -4,6 +4,10 @@
 }
 .container{
     width: 80%;
+    border: 1px solid red;
+}
+.header{
+    margin-top: 30px;
 }
 .header>div:first-child>p{
     font-size: 25px;
