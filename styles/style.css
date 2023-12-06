@@ -6,6 +6,19 @@
     width: 80%;
     border: 1px solid red;
 }
+.header>div:first-child>p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.header>div:nth-child(2)>ul>li{
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+}
+.header>div:nth-child(2)>ul>li:first-child{
+    margin-left: 0px;
+}
 /* Reusable classes */
 
 .flex{
