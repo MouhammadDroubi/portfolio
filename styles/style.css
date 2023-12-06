@@ -4,16 +4,15 @@
 }
 .container{
     width: 80%;
-    border: 1px solid red;
 }
 .header>div:first-child>p{
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 500;
 }
 .header>div:nth-child(2)>ul>li{
     margin-left: 15px;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 500;
     list-style: none;
 }
 .header>div:nth-child(2)>ul>li:first-child{
@@ -38,4 +37,7 @@
 }
 .justify-content-space-between{
     justify-content: space-between;
+}
+.cursor-pointer{
+    cursor: pointer;
 }
