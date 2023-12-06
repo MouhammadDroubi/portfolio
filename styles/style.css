@@ -21,6 +21,11 @@
   font-weight: 500;
   list-style: none;
 }
+.header > div:nth-child(2) > ul > li:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
 .header > div:nth-child(2) > ul > li:first-child {
   margin-left: 0px;
 }
