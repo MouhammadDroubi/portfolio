@@ -25,6 +25,14 @@
   margin-left: 0px;
 }
 
+/* Profile */
+.profile > div:first-child > img {
+  border: 0.5px solid gray;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
 /* Reusable classes */
 
 .flex {
