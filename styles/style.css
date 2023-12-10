@@ -80,7 +80,16 @@
   margin-left: 20px;
   height: 200px;
 }
+/* About Me */
+.about-me > div:first-child > p:first-child {
+  font-size: 14px;
+  color: gray;
+}
 
+.about-me > div:nth-child(2) > p:first-child {
+  font-size: 40px;
+  font-weight: bold;
+}
 /* Reusable classes */
 
 .flex {
