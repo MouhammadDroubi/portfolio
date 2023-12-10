@@ -96,6 +96,11 @@
   border: 0.5px solid gray;
   border-radius: 15px;
 }
+.about-me > div:last-child > div:last-child > div:first-child > div {
+  border: 0.5px solid gray;
+  border-radius: 22px;
+  height: 140px;
+}
 /* Reusable classes */
 
 .flex {
@@ -130,4 +135,7 @@
 }
 .ml-20 {
   margin-left: 20px;
+}
+.width-45 {
+  width: 45%;
 }
