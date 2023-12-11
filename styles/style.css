@@ -108,6 +108,10 @@
   height: 300px;
   border-radius: 22px;
 }
+.experience > div:last-child > div > div:first-child > p {
+  font-size: 22px;
+  font-weight: 700;
+}
 /* Reusable classes */
 
 .flex {
