@@ -102,6 +102,12 @@
   font-weight: 600;
 }
 
+/* Experience */
+.experience > div:last-child > div {
+  border: 0.5px solid gray;
+  height: 300px;
+  border-radius: 22px;
+}
 /* Reusable classes */
 
 .flex {
