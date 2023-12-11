@@ -112,6 +112,10 @@
   font-size: 22px;
   font-weight: 700;
 }
+.experience > div:last-child > div > div:last-child > div > div {
+  width: 120px;
+}
+
 /* Reusable classes */
 
 .flex {
@@ -161,6 +165,9 @@
 }
 .width-50 {
   width: 50%;
+}
+.ml-5 {
+  margin-left: 5px;
 }
 .color-gray {
   color: gray;
