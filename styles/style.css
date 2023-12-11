@@ -78,14 +78,7 @@
   height: 200px;
 }
 /* About Me */
-.about-me > div:first-child > p:first-child {
-  font-size: 14px;
-}
 
-.about-me > div:nth-child(2) > p:first-child {
-  font-size: 40px;
-  font-weight: bold;
-}
 .about-me > div:nth-child(3) > div:first-child > img {
   width: 300px;
   height: 300px;
@@ -149,4 +142,12 @@
 }
 .color-gray {
   color: gray;
+}
+.section-1st-title {
+  font-size: 14px;
+}
+
+.section-2nd-title {
+  font-size: 40px;
+  font-weight: bold;
 }
