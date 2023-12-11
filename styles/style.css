@@ -41,7 +41,6 @@
 }
 
 .profile > div:last-child > div > div:first-child > p {
-  color: gray;
   font-size: 14px;
 }
 .profile > div:last-child > div > div:nth-child(2) > p {
@@ -49,7 +48,6 @@
   font-weight: 800;
 }
 .profile > div:last-child > div > div:nth-child(3) > p {
-  color: gray;
   font-size: 32px;
   font-weight: 800;
 }
@@ -82,7 +80,6 @@
 /* About Me */
 .about-me > div:first-child > p:first-child {
   font-size: 14px;
-  color: gray;
 }
 
 .about-me > div:nth-child(2) > p:first-child {
@@ -100,9 +97,7 @@
   border-radius: 22px;
   height: 140px;
 }
-.about-me > div:last-child > div:last-child > div:first-child > div p {
-  color: gray;
-}
+
 .about-me
   > div:last-child
   > div:last-child
@@ -113,9 +108,7 @@
   color: black;
   font-weight: 600;
 }
-.about-me > div:last-child > div:last-child > div:last-child p {
-  color: gray;
-}
+
 /* Reusable classes */
 
 .flex {
