@@ -117,6 +117,36 @@
 }
 
 /* Projects */
+.projects > div:last-child > div {
+  width: 31%;
+  border: 0.5px solid gray;
+  border-radius: 12px;
+  height: 450px;
+}
+.projects > div:last-child > div > div {
+  width: 90%;
+  height: 90%;
+}
+.projects > div:last-child > div > div > div:first-child {
+  border: 1px solid gray;
+  border-radius: 22px;
+}
+
+.projects > div:last-child > div > div > div:first-child > img {
+  width: 90%;
+}
+.projects > div:last-child > div > div > div:nth-child(2) > p {
+  font-size: 22px;
+  font-weight: 650;
+}
+.projects > div:last-child > div > div > div:last-child > button {
+  width: 120px;
+  height: 40px;
+  border-radius: 17px;
+  border: 0.5px solid gray;
+  background-color: white;
+  color: black;
+}
 
 /* Reusable classes */
 
