@@ -116,6 +116,8 @@
   width: 120px;
 }
 
+/* Projects */
+
 /* Reusable classes */
 
 .flex {
@@ -182,4 +184,7 @@
 }
 .fw-700 {
   font-weight: 700;
+}
+.b1s {
+  border: 1px solid red;
 }
