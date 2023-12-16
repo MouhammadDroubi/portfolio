@@ -133,6 +133,10 @@
   background-color: white;
   color: black;
 }
+.projects > div:last-child > div > div > div:last-child > button:hover {
+  background-color: black;
+  color: white;
+}
 
 /* contact */
 .contact > div:last-child > div {
