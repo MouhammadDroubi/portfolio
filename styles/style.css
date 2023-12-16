@@ -14,20 +14,6 @@
   font-size: 25px;
   font-weight: 500;
 }
-.header > div:nth-child(2) > ul > li {
-  margin-left: 15px;
-  font-size: 25px;
-  font-weight: 500;
-  list-style: none;
-}
-.header > div:nth-child(2) > ul > li:hover {
-  text-decoration: underline;
-  color: gray;
-}
-
-.header > div:nth-child(2) > ul > li:first-child {
-  margin-left: 0px;
-}
 
 /* Profile */
 .profile {
@@ -225,4 +211,17 @@
 }
 .b1s {
   border: 1px solid red;
+}
+.list-item {
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  list-style: none;
+}
+.list-item-0.list-item {
+  margin-left: 0px;
+}
+.list-item:hover {
+  text-decoration: underline;
+  color: gray;
 }
