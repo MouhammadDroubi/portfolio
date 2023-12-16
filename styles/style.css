@@ -148,6 +148,14 @@
   color: black;
 }
 
+/* contact */
+.contact > div:last-child > div {
+  border: 1px solid gray;
+  width: 30%;
+  height: 70px;
+  border-radius: 50px;
+}
+
 /* Reusable classes */
 
 .flex {
@@ -186,6 +194,9 @@
 .mt-60 {
   margin-top: 60px;
 }
+.ml-5 {
+  margin-left: 5px;
+}
 .ml-20 {
   margin-left: 20px;
 }
@@ -197,9 +208,6 @@
 }
 .width-50 {
   width: 50%;
-}
-.ml-5 {
-  margin-left: 5px;
 }
 .color-gray {
   color: gray;
