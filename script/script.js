@@ -10,3 +10,16 @@ const footer_about_me = document.getElementById("footer_about_me");
 const footer_experience = document.getElementById("footer_experience");
 const footer_projects = document.getElementById("footer_projects");
 const footer_contact = document.getElementById("footer_contact");
+
+const scrollToAboutSection = () => {
+  about_me_section.scrollIntoView();
+};
+const scrollToExperienceSection = () => {
+  experience_section.scrollIntoView();
+};
+const scrollToProjectsSection = () => {
+  projects_section.scrollIntoView();
+};
+const scrollToContactSection = () => {
+  contact_section.scrollIntoView();
+};
