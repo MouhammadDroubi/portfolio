@@ -309,3 +309,25 @@
     margin-top: 15px;
   }
 }
+
+@media (max-width: 670px) {
+  .header {
+    justify-content: center;
+  }
+
+  .header > div:first-child {
+    display: none;
+  }
+  .experience > div:last-child {
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience > div:last-child > div {
+    width: 60%;
+    margin-top: 15px;
+  }
+
+  .contact > div:last-child > div {
+    width: 60%;
+  }
+}
