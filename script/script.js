@@ -23,3 +23,8 @@ const scrollToProjectsSection = () => {
 const scrollToContactSection = () => {
   contact_section.scrollIntoView();
 };
+
+header_about_me.addEventListener("click", () => scrollToAboutSection());
+header_experience.addEventListener("click", () => scrollToExperienceSection());
+header_projects.addEventListener("click", () => scrollToProjectsSection());
+header_contact.addEventListener("click", () => scrollToContactSection());
