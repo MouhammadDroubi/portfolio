@@ -385,3 +385,17 @@
     width: 70%;
   }
 }
+@media (max-width: 370px) {
+  .list-item {
+    font-size: 17px;
+  }
+  .experience > div:last-child > div {
+    width: 80%;
+  }
+  .projects > div:last-child > div {
+    width: 80%;
+  }
+  .contact > div:last-child > div {
+    width: 70%;
+  }
+}
