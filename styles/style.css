@@ -243,3 +243,33 @@
     width: 40%;
   }
 }
+@media (max-width: 850px) {
+  .about-me > div:last-child > div:last-child > div:last-child > p {
+    font-size: 13px;
+  }
+  .about-me
+    > div:last-child
+    > div:last-child
+    > div:first-child
+    > div
+    > div:nth-child(2)
+    > p {
+    font-size: 13px;
+  }
+  .about-me
+    > div:last-child
+    > div:last-child
+    > div:first-child
+    > div
+    > div:nth-child(3)
+    > p,
+  .about-me
+    > div:last-child
+    > div:last-child
+    > div:first-child
+    > div
+    > div:last-child
+    > p {
+    font-size: 13px;
+  }
+}
