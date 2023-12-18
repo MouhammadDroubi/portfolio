@@ -291,7 +291,7 @@
     align-items: center;
   }
   .about-me > div:last-child > div:last-child {
-    margin-top: 20px;
+    margin: 10px 10px 0 10px;
   }
   .about-me > div:nth-child(3) > div:first-child > img {
     width: 200px;
