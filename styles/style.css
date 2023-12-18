@@ -229,3 +229,8 @@
   text-decoration: underline;
   color: gray;
 }
+@media (max-width: 1100px) {
+  .contact > div:last-child p {
+    font-size: 12px;
+  }
+}
