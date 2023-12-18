@@ -234,3 +234,12 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 900px) {
+  .projects > div:last-child > div > div > div:last-child > button {
+    width: 90px;
+  }
+  .contact > div:last-child > div {
+    width: 40%;
+  }
+}
