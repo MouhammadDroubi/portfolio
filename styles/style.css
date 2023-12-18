@@ -358,3 +358,30 @@
     height: 150px;
   }
 }
+
+@media (max-width: 420px) {
+  .experience > div:last-child > div > div:first-child > p {
+    font-size: 18px;
+  }
+  .experience > div:last-child > div > div:last-child img {
+    width: 22px;
+    height: 22px;
+  }
+  .experience
+    > div:last-child
+    > div
+    > div:last-child
+    > div
+    > div
+    > div:last-child
+    > p {
+    font-size: 14px;
+  }
+  .experience > div:last-child > div {
+    width: 70%;
+  }
+
+  .projects > div:last-child > div {
+    width: 70%;
+  }
+}
