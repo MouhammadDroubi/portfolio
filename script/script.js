@@ -28,3 +28,8 @@ header_about_me.addEventListener("click", () => scrollToAboutSection());
 header_experience.addEventListener("click", () => scrollToExperienceSection());
 header_projects.addEventListener("click", () => scrollToProjectsSection());
 header_contact.addEventListener("click", () => scrollToContactSection());
+
+footer_about_me.addEventListener("click", () => scrollToAboutSection());
+footer_experience.addEventListener("click", () => scrollToExperienceSection());
+footer_projects.addEventListener("click", () => scrollToProjectsSection());
+footer_contact.addEventListener("click", () => scrollToContactSection());
