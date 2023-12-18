@@ -351,3 +351,10 @@
     margin-top: 15px;
   }
 }
+
+@media (max-width: 450px) {
+  .about-me > div:nth-child(3) > div:first-child > img {
+    width: 150px;
+    height: 150px;
+  }
+}
